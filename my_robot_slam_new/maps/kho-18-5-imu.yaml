@@ -1,0 +1,7 @@
+image: kho-18-5-imu.pgm
+resolution: 0.050000
+origin: [-4.453634, -2.388864, 0.000000]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196
+

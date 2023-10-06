@@ -1,0 +1,7 @@
+image: 102h6-3.pgm
+resolution: 0.050000
+origin: [-9.272623, -4.128951, 0.000000]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196
+

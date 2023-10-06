@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<launch>
+    <group ns="my_new_robot">
+	    <node name="node_uwb2" pkg="my_new_robot" type="dwm10012_main.py" output="screen">
+            <param name="serial_port_name2" value="/dev/ttyUSB_UWB_RIGHT"/>
+            <!-- <param name="serial_port_name2" value="/dev/ttyACM1"/> -->
+            <param name="serial_baud_rate" value="115200"/>
+            <remap from="/dwm1001/tag2" to="/agv/uwb/tag2"/>
+            <remap from="/dwm1001/anchor0" to="/agv/uwb/anchor0"/>
+            <remap from="/dwm1001/anchor1" to="/agv/uwb/anchor1"/>
+            <remap from="/dwm1001/anchor2" to="/agv/uwb/anchor2"/>
+            <remap from="/dwm1001/anchor3" to="/agv/uwb/anchor3"/>
+        </node>
+    </group>
+</launch>
+

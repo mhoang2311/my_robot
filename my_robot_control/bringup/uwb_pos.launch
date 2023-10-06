@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <group ns="my_new_robot">
+        <node name="node_uwb_pos" pkg="my_new_robot" type="uwb_position.py" output="screen"/>
+    </group>
+</launch>
